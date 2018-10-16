@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 <style>
     h5 {
@@ -50,9 +51,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="card bg-dark text-white" style="margin-left: 130px;">
-                                    <img class="card-img" src="https://images.cdn4.stockunlimited.net/preview1300/hacker-working-on-laptop_1559326.jpg" alt="Card image" style="width:200px;height:200px;">
+                                    <img class="card-img img-responsive" id="giftastic" src="http://images.fanpop.com/images/image_uploads/pikachu-pikachu-365104_200_200.gif" alt="Project One">
                                     <div class="card-img-overlay">
-                                        <h5 class="card-title"style="margin-left: -20px;margin-top: 120px;">Project One</h5>
+                                            <a href="https://jay-goss.github.io/GifTastic/"><h5 class="card-title"style="margin-left: -20px;margin-top: 120px;">Pokemon GifTastic</h5></a>
                                     </div>
                             </div>
                             <div class="col-md-1"></div>
@@ -115,7 +116,11 @@
         <br>
         <br>
     </div>
- 
+    <script>
+            $('#giftastic').click(function () {
+                alert('It works!');
+            });
+        </script>
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4"style="background-color: #4aaaa5;height: 6px;"></footer>
 <footer class="page-footer font-small blue pt-4"style="background-color: #666666;height: 45px;"></footer>
